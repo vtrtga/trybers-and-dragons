@@ -3,7 +3,7 @@ export default abstract class Race {
   public readonly _dexterity: number;
 
   constructor(
-    readonly name: string, // pq se coloco private fica setavel?
+    readonly name: string,
     readonly dexterity: number,
   ) {
     this._name = name;
